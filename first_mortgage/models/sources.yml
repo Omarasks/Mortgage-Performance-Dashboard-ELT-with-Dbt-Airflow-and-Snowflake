@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: first_mortgage
+    database: first_mortgage
+    schema: first_mortgage_schema
+    tables:
+      - name: first_mortgage_table
