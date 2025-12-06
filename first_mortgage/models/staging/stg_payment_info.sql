@@ -9,7 +9,8 @@ with
             days_delinquent::integer as days_delinquent,
             default_flag::integer as default_flag,
             payment_to_income_ratio::float as payment_to_income_ratio,
-            equity_built::float as equity_built
+            equity_built::float as equity_built,
+            credit_score as credit_score
 
         from {{ ref("stg_mortgage_raw") }}
     )
